@@ -3,9 +3,6 @@
 .navbar {
     padding-top: 20px;
     margin-bottom: 80px;
-    position: fixed;
-    width: 100%;
-    z-index: 99;
 }
 
 .navbar-nav {
