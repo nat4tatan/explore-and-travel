@@ -347,7 +347,7 @@
 
 .places-card-name {
     position: absolute;
-    bottom: 11px;
+    bottom: 5px;
     font-family: Inter;
     font-style: 600;
     font-size: 18px;
@@ -357,7 +357,7 @@
 
 .places-card-country {
     position: absolute;
-    bottom: -15px;
+    bottom: -20px;
     font-family: Inter;
     font-style: 600;
     font-size: 15px;
@@ -426,3 +426,239 @@
 }
 
 /*dowland end*/
+
+/*feedback start*/
+
+.feedback {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex: right;
+    margin-bottom: 280px;
+}
+
+.title-feedback {
+    margin-bottom: 145px;
+    Font-family: Playfair Display;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.feedback-stars {
+    margin-bottom: 30px;
+}
+
+.feedback-star {
+    margin-right: 16px;
+}
+
+.text-feedback {
+    font-family: Mulish;
+    Font-style: Regular;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+
+.feedback-user-hobby {
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 48px;
+    align-self: bottom;
+}
+
+.feedback-user-name {
+    font-family: Inter;
+    font-style: 700;
+    font-size: 22px;
+    line-height: 48px;
+    align-self: bottom;
+    margin-bottom: 10px;
+}
+
+.col-photo-feedback {
+    padding: 0;
+    margin-left: 240px;
+    margin-top: 60px;
+}
+
+/*feedback end*/
+
+/*stories start*/
+
+.container-stories {
+    margin-bottom: 200px;
+}
+
+.stories-caption {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+.stories-title {
+    font-family: Playfair Display;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+.stories-view-all {
+    background: url(../img/svg/arrow.svg) no-repeat right;
+    font-family: Inter;
+    font-style: Semi Bold;
+    font-size: 17px;
+    line-height: 60px;
+    color: #FB8F1D;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.stories-view-all:active, .stories-view-all:focus, .stories-view-all:hover {
+    color:  #1ABE84;
+}
+
+.stories-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.stories-card {
+    position: relative;
+    margin-right: 25px;
+    margin-bottom: 150px;
+}
+
+.stories-card-name {
+    position: absolute;
+    bottom: 17px;
+    font-family: Inter;
+    font-style: bold;
+    font-size: 19px;
+    line-height: 30px;
+    color: #202336;
+}
+
+.stories-card-country {
+    position: absolute;
+    bottom: -75px;
+    font-family: Inter;
+    font-style: 600;
+    font-size: 15px;
+    line-height: 26px;
+    color: #AFB0B9;
+}
+
+.stories-card-read-more {
+    position: absolute;
+    bottom: -107px;
+    font-family: Inter;
+    font-style: 600;
+    font-size: 15px;
+    line-height: 26px;
+    color:  #FB8F1D;
+    text-decoration: none;
+}
+
+.stories-card-read-more:focus, .stories-card-read-more:active, .stories-card-read-more:hover {
+    color: #1ABE84;
+}
+
+/*stories end*/
+
+/*footer start*/
+
+.footer-flex-box {
+    display: flex;
+}
+
+.footer-logo {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.footer-text {
+    font-family: Mulish;
+    font-style: Light;
+    font-size: 18px;
+    line-height: 28px;
+    color:#7D7987;
+    width: 340px;
+    margin-right: 200px; 
+    margin-bottom: 60px;
+}
+
+.footer-company {
+    font-family: Mulish;
+    font-style: Light;
+    font-size: 18px;
+    line-height: 28px;
+    color:#7D7987;
+}
+
+.destinations {
+    padding-right: 150px;
+}
+
+.shop {
+    padding-right: 150px;
+}
+
+.interests {
+    padding-right: 150px;
+}
+
+.destinations-list{
+    font-family: Mulish;
+    font-style: Light;
+    font-size: 18px;
+    line-height: 38px;
+    padding: 0;
+    list-style: none;
+    color: #848484;
+}
+
+.shop-list{
+    font-family: Mulish;
+    font-style: Light;
+    font-size: 18px;
+    line-height: 38px;
+    padding: 0;
+    list-style: none;
+    color: #848484;
+}
+
+.interests-list{
+    font-family: Mulish;
+    font-style: Light;
+    font-size: 18px;
+    line-height: 38px;
+    padding: 0;
+    list-style: none;
+    color: #848484;
+}
+
+.lists:not(:last-child) {
+    margin-right: 150px;
+}
+
+.list-header {
+    font-family: Mulish;
+    font-style: Bold;
+    font-size: 19px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/*footer end*/
